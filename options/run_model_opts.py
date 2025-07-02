@@ -10,7 +10,7 @@ class RunModelOpts(BaseOpts):
         self.parser.add_argument('--run_model',   default=True, action='store_false')
         self.parser.add_argument('--benchmark',   default='DiLiGenT_main')
         self.parser.add_argument('--bm_dir',      default='data/datasets/DiLiGenT/pmsData')
-        self.parser.add_argument('--model',       default='MF_PSN_run')
+        self.parser.add_argument('--model',       default='MF_PSN')
         self.parser.add_argument('--test_batch',  default=1,    type=int)
 
         #### Display Arguments ####
